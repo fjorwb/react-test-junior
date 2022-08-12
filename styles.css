@@ -1,0 +1,35 @@
+body {
+  background: darkslategray;
+}
+.App {
+  margin: auto;
+  background: darkred;
+  color: white;
+  font-family: sans-serif;
+  text-align: center;
+  width: 600px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif';
+}
+
+h1 {
+  margin: 0px 10px;
+  padding-top: 20px;
+}
+
+p {
+  margin: 15px;
+  font-style: italic;
+}
+
+ul {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 0px;
+}
+.list {
+  list-style: none;
+}
+
+img {
+  width: 150px;
+}
